@@ -17,7 +17,7 @@ r2p::Middleware r2p::Middleware::instance(MODULE_NAME, "BOOT_"MODULE_NAME);
 
 uint16_t in_values[12] = {0};
 uint16_t out_values[12] = {0};
-static const uint16_t failsafe_values[12] = {1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500};
+static const uint16_t failsafe_values[12] = {1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000};
 
 systime_t last_update = 0;
 bool failsafe = true;
