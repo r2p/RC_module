@@ -41,8 +41,6 @@ static void icuwidthcb(ICUDriver *icup) {
 		idx = 0;
 	}
 
-	last_update = chTimeNow();
-
 	chSysUnlockFromIsr();
 }
 
